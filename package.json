@@ -1,5 +1,5 @@
 {
-    "name" : "Roxy",
+    "name" : "roxy",
     "version" : "0.1.1",
     "author" : "Russell Holman <rholman@ultraserve.com.au>",
     "description" : "A proxy for JSONP requests to RESTful APIs",
