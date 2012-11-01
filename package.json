@@ -1,0 +1,18 @@
+{
+	"name" : "Roxy",
+	"version" : "0.1.1",
+	"description" : "A proxy for JSONP requests to RESTful APIs",
+	"repository" : {
+		"type" : "git",
+		"url" : "http://github.com/russholio/Roxy"
+	},
+	"config" : {
+		"port" : "3000",
+		"hostname" : "mrsparkles"
+	},
+	"dependancies" : {
+		"qs" : ">= 0.5.1"
+	}
+}
+	
+		
