@@ -1,20 +1,31 @@
 {
-    "name" : "roxy",
-    "version" : "0.1.1",
-    "author" : "Russell Holman <rholman@ultraserve.com.au>",
-    "description" : "A proxy for JSONP requests to RESTful APIs",
-    "keywords" : [ "proxy", "jsonp", "rest" ],
-    "repository" : {
-        "type" : "git",
-        "url" : "http://github.com/russholio/Roxy"
+    "name": "roxy",
+    "version": "0.1.1",
+    "author": "Russell Holman <russholio@gmail.com>",
+    "description": "A proxy for JSONP requests to RESTful APIs",
+    "keywords": [
+        "proxy",
+        "jsonp",
+        "rest"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/russholio/Roxy.git"
     },
-    "config" : {
-        "port" : "3000",
-        "hostname" : "mrsparkles"
+    "config": {
+        "port": "3000",
+        "hostname": "mrsparkles",
+        "default_remote_hostname": "lighthouse"
     },
-    "dependencies" : {
-        "qs" : ">= 0.5.x"
+    "dependencies": {
+        "qs": ">= 0.5.x"
+    },
+    "scripts": {
+        "start": "node server.js"
+    },
+    "devDependencies": {},
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
     }
 }
-	
-		

@@ -13,21 +13,36 @@ Why use node.js?
 Since this Proxy is intended for use with client side javascript frameworks, we thought it would be useful to keep the proxy
 code in the same language to make it easy for the users to contribute/alter where they see fit.
 
-Requirements
+Dependencies
 ------------
 
 * node.js
 * qs (querystring npm library)
 
-Installing node.js on OS X:
+Installing/Using Roxy
+---------------------
 
-    brew update
-    brew install node
+Ensure you have node.js and npm installed (latest versions of node.js come bundled with npm)
 
+Roxy can now be installed using npm simply by using
 
-To install the require npm package type:
+    npm install roxy
 
-    npm install qs
+This should be done at the root of your project that will then place roxy in 
+
+    node_modules/roxy
+
+Traverse to this directory and run
+
+    npm config set hostname <hostname_roxy_listens_on>
+    npm config set port <port_number_roxy_listens_on>
+    npm config set default_remote_hostname <default_remote_host_for_requests>
+
+These config settings are optional, but if NOT set the values will be set to the default values:
+
+* hostname = mrsparkles
+* port = 3000
+* default_remote_hostname = lighthouse
 
 Configuring to work with NGINX (nginx.conf):
 
@@ -43,9 +58,9 @@ Configuring to work with NGINX (nginx.conf):
         }
     }
 
-Node.js script must also be run with:
-
-    node roxy.js
+Run the roxy server.js
+1. Go to the node_modules/roxy
+2. run npm start
 
 Usage
 -----

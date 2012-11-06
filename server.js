@@ -1,5 +1,6 @@
 var HOST = process.env.npm_package_config_hostname;
 var PORT = process.env.npm_package_config_port;
+var DEFAULT_REMOTE_HOST = process.env_pacakge_config_default_remote_hostname;
 
 var http = require("http");
 var https = require("https");
@@ -8,7 +9,7 @@ var qs = require("qs");
 
 var restService = function(request) {
     return new function() {
-        this.remoteUrl = url.parse(request.url);
+        this.remoteUrl = url.parse(request.url) || DEFAULT_REMOTE_HOST;
         this.protocol = 'https:';
         this.port = 443;
         if (this.remoteUrl.protocol == 'http:') {
