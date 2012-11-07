@@ -1,6 +1,6 @@
 {
     "name": "roxy",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": "Russell Holman <russholio@gmail.com>",
     "description": "A proxy for JSONP requests to RESTful APIs",
     "keywords": [

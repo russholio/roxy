@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.8.12/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.1.63
+3 info using node@v0.8.12
+4 verbose publish [ '.' ]
+5 verbose read json /Users/rholman/Work/Roxy/package.json
+6 verbose cache add [ '.', null ]
+7 silly cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { pathname: '.', path: '.', href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/rholman/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/tmp.tgz
+14 verbose folder .
+15 info prepublish roxy@0.1.1
+16 silly lockFile 9cb67032-75854-0-6192612752784044-tmp-tgz /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/tmp.tgz
+17 verbose lock /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/tmp.tgz /Users/rholman/.npm/9cb67032-75854-0-6192612752784044-tmp-tgz.lock
+18 silly lockFile 9cb67032-75854-0-6192612752784044-tmp-tgz /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/tmp.tgz
+19 verbose tar unpack /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/tmp.tgz
+20 silly lockFile 0326402b-75854-0-6192612752784044-package /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/package
+21 verbose lock /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/package /Users/rholman/.npm/0326402b-75854-0-6192612752784044-package.lock
+22 silly gunzTarPerm modes [ '755', '644' ]
+23 silly gunzTarPerm extractEntry package.json
+24 silly gunzTarPerm extractEntry README.md
+25 silly gunzTarPerm extractEntry server.js
+26 verbose read json /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/package/package.json
+27 silly lockFile 0326402b-75854-0-6192612752784044-package /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/package
+28 verbose from cache /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/package/package.json
+29 verbose tar pack [ '/Users/rholman/.npm/roxy/0.1.1/package.tgz',
+29 verbose tar pack   '/var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/package' ]
+30 verbose tarball /Users/rholman/.npm/roxy/0.1.1/package.tgz
+31 verbose folder /var/folders/s1/3cw5hfls109fh37s4k7b5tth0000gn/T/npm-18568/1352247375854-0.6192612752784044/package
+32 silly lockFile b55d937a-olman-npm-roxy-0-1-1-package-tgz /Users/rholman/.npm/roxy/0.1.1/package.tgz
+33 verbose lock /Users/rholman/.npm/roxy/0.1.1/package.tgz /Users/rholman/.npm/b55d937a-olman-npm-roxy-0-1-1-package-tgz.lock
+34 silly lockFile b55d937a-olman-npm-roxy-0-1-1-package-tgz /Users/rholman/.npm/roxy/0.1.1/package.tgz
+35 silly lockFile bfaf8e43-s-rholman-npm-roxy-0-1-1-package /Users/rholman/.npm/roxy/0.1.1/package
+36 verbose lock /Users/rholman/.npm/roxy/0.1.1/package /Users/rholman/.npm/bfaf8e43-s-rholman-npm-roxy-0-1-1-package.lock
+37 silly lockFile bfaf8e43-s-rholman-npm-roxy-0-1-1-package /Users/rholman/.npm/roxy/0.1.1/package
+38 verbose tar unpack /Users/rholman/.npm/roxy/0.1.1/package.tgz
+39 silly lockFile bfaf8e43-s-rholman-npm-roxy-0-1-1-package /Users/rholman/.npm/roxy/0.1.1/package
+40 verbose lock /Users/rholman/.npm/roxy/0.1.1/package /Users/rholman/.npm/bfaf8e43-s-rholman-npm-roxy-0-1-1-package.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry README.md
+44 silly gunzTarPerm extractEntry server.js
+45 verbose read json /Users/rholman/.npm/roxy/0.1.1/package/package.json
+46 silly lockFile bfaf8e43-s-rholman-npm-roxy-0-1-1-package /Users/rholman/.npm/roxy/0.1.1/package
+47 silly shasum updated bytes 2871
+48 info shasum c140a286e018c6999d94f8c1fe45b47b58c01cdb
+48 info shasum /Users/rholman/.npm/roxy/0.1.1/package.tgz
+49 verbose from cache /Users/rholman/.npm/roxy/0.1.1/package/package.json
+50 verbose chmod /Users/rholman/.npm/roxy/0.1.1/package.tgz 644
+51 verbose chown /Users/rholman/.npm/roxy/0.1.1/package.tgz [ 501, 20 ]
+52 silly lockFile 3a52ce78- .
+53 silly publish { name: 'roxy',
+53 silly publish   version: '0.1.1',
+53 silly publish   author: { name: 'Russell Holman', email: 'russholio@gmail.com' },
+53 silly publish   description: 'A proxy for JSONP requests to RESTful APIs',
+53 silly publish   keywords: [ 'proxy', 'jsonp', 'rest' ],
+53 silly publish   repository: { type: 'git', url: 'git://github.com/russholio/Roxy.git' },
+53 silly publish   config:
+53 silly publish    { port: '3000',
+53 silly publish      hostname: 'mrsparkles',
+53 silly publish      default_remote_hostname: 'lighthouse' },
+53 silly publish   dependencies: { qs: '>= 0.5.x' },
+53 silly publish   scripts: { start: 'node server.js' },
+53 silly publish   devDependencies: {},
+53 silly publish   optionalDependencies: {},
+53 silly publish   engines: { node: '*' },
+53 silly publish   readme: 'Roxy\n====\nRoxy is a simple proxy intended for use with javascript frameworks to enable RESTful inter domain requests.\nWhy do we need a proxy?\n-----------------------\nJSONP requests that enable inter-domain AJAX requests do no allow for PUT,POST,DELETE,PATCH methods to be used.\nAdditionally JSONP does not allow you to set additional headers in the request.\n\nThe use of headers and these other HTTP request methods is essential to utilising the RESTful methodology to its full extent.\n\nWhy use node.js?\n------------\nSince this Proxy is intended for use with client side javascript frameworks, we thought it would be useful to keep the proxy\ncode in the same language to make it easy for the users to contribute/alter where they see fit.\n\nDependencies\n------------\n\n* node.js\n* qs (querystring npm library)\n\nInstalling/Using Roxy\n---------------------\n\nEnsure you have node.js and npm installed (latest versions of node.js come bundled with npm)\n\nRoxy can now be installed using npm simply by using\n\n    npm install roxy\n\nThis should be done at the root of your project that will then place roxy in \n\n    node_modules/roxy\n\nTraverse to this directory and run\n\n    npm config set hostname <hostname_roxy_listens_on>\n    npm config set port <port_number_roxy_listens_on>\n    npm config set default_remote_hostname <default_remote_host_for_requests>\n\nThese config settings are optional, but if NOT set the values will be set to the default values:\n\n* hostname = mrsparkles\n* port = 3000\n* default_remote_hostname = lighthouse\n\nConfiguring to work with NGINX (nginx.conf):\n\n    server {\n        listen 80;\n        server_name ms;\n        root /WEB_ROOT;\n        index index.html;\n        error_page 404 index.html;\n\n        location /roxy {\n            proxy_pass    http://127.0.0.1:3000/;\n        }\n    }\n\nRun the roxy server.js\n1. Go to the node_modules/roxy\n2. run npm start\n\nUsage\n-----\n\nSend a JSONP AJAX request to roxy where the url is as so\n\n    http://localhost/roxy/remote/path\n\nWhere \'localhost\' is the server running the node.js file.\nAnd roxy is the location configured in the nginx.conf\n\nremote/path denotes the path you are trying to retrieve/modify from the RESTful API\n\nAlong with this also pass any parameters (post data) you wish to send to the remote server.\nAlso including the special _request parameter this will carry configuration data to Roxy.\n\n    _request = {\n        url: \'http://restful.api:8080\',\n        method: \'POST\',\n        headers: {\n            Authorization: \'OAuth 0123456789abcdef0123456789abcdef\'\n        }\n    }\n\nThis special parameter will connect Roxy to the specified server (restful.api)\nusing the specified protocol (http) on port (8080).\n\nThe method (POST) denotes the HTTP action you wish to perform and any headers set will also be forwarded.\n\njQuery example:\n\n    jQuery.ajax({\n        url: http://localhost/roxy/remote/path,\n        data: {\n            _request = {\n                url: \'http://restful.api:8080\',\n                method: \'POST\',\n                headers: {\n                    Authorization: \'OAuth 0123456789abcdef0123456789abcdef\'\n                }\n            },\n            text1: \'This is some data you want to send\',\n            text2: \'This is some more data wish to send\'            \n        },\n        dataType: \'jsonp\',\n        success: function(data) {\n            alert(data);\n        }\n    });',
+53 silly publish   _id: 'roxy@0.1.1',
+53 silly publish   dist: { shasum: 'c140a286e018c6999d94f8c1fe45b47b58c01cdb' } }
+54 verbose url raw roxy
+55 verbose url resolving [ 'https://registry.npmjs.org/', './roxy' ]
+56 verbose url resolved https://registry.npmjs.org/roxy
+57 info trying registry request attempt 1 at 11:16:17
+58 http PUT https://registry.npmjs.org/roxy
+59 http 409 https://registry.npmjs.org/roxy
+60 verbose url raw roxy
+61 verbose url resolving [ 'https://registry.npmjs.org/', './roxy' ]
+62 verbose url resolved https://registry.npmjs.org/roxy
+63 info trying registry request attempt 1 at 11:16:19
+64 http GET https://registry.npmjs.org/roxy
+65 http 200 https://registry.npmjs.org/roxy
+66 error publish fail Cannot publish over existing version.
+66 error publish fail Bump the 'version' field, set the --force flag, or
+66 error publish fail     npm unpublish 'roxy@0.1.1'
+66 error publish fail and try again
+67 error System Darwin 12.2.0
+68 error command "/usr/local/Cellar/node/0.8.12/bin/node" "/usr/local/bin/npm" "publish"
+69 error cwd /Users/rholman/Work/Roxy
+70 error node -v v0.8.12
+71 error npm -v 1.1.63
+72 error code EPUBLISHCONFLICT
+73 verbose exit [ 1, true ]
