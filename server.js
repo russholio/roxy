@@ -3,13 +3,10 @@ var PORT = process.env.npm_package_config_port;
 var DEFAULT_REMOTE_HOST = process.env.npm_package_config_default_remote_hostname;
 var DEFAULT_API_KEY = process.env.npm_package_config_default_api_key;
 
-console.log(HOST, PORT, DEFAULT_REMOTE_HOST, DEFAULT_API_KEY);
-
 if (typeof DEFAULT_API_KEY === 'undefined') {
     console.log('DEFAULT API KEY was undefined please define with "npm config set roxy:default_api_key 0123456789abcdef0123456789abcdef"');
     process.kill(1);
 }
-console.log("sometihng");
 
 var http = require("http");
 var https = require("https");
