@@ -34,15 +34,23 @@ This should be done at the root of your project that will then place roxy in
 
 Traverse to this directory and run
 
-    npm config set hostname <hostname_roxy_listens_on>
-    npm config set port <port_number_roxy_listens_on>
-    npm config set default_remote_hostname <default_remote_host_for_requests>
+    npm config set roxy:hostname <hostname_roxy_listens_on>
+    npm config set roxy:port <port_number_roxy_listens_on>
+    npm config set roxy:default_remote_hostname <default_remote_host_for_requests>
 
 These config settings are optional, but if NOT set the values will be set to the default values:
 
 * hostname = mrsparkles
 * port = 3000
 * default_remote_hostname = lighthouse
+
+The default api key is not optional and has NO default value set this value must be set with 
+
+    npm config set roxy:default_api_key 0123456789abcdef0123456789abcdef
+
+Once all of the appropriate values have been set the server can be started with:
+
+    npm start
 
 Configuring to work with NGINX (nginx.conf):
 
