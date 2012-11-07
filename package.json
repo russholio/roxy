@@ -1,6 +1,6 @@
 {
     "name": "roxy",
-    "version": "0.1.2",
+    "version": "0.0.0",
     "author": "Russell Holman <russholio@gmail.com>",
     "description": "A proxy for JSONP requests to RESTful APIs",
     "keywords": [
@@ -10,7 +10,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/russholio/Roxy.git"
+        "url": "git://github.com/russholio/roxy.git"
     },
     "config": {
         "port": "3000",

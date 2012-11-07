@@ -1,6 +1,6 @@
 var HOST = process.env.npm_package_config_hostname;
 var PORT = process.env.npm_package_config_port;
-var DEFAULT_REMOTE_HOST = process.env_pacakge_config_default_remote_hostname;
+var DEFAULT_REMOTE_HOST = process.env.package_config_default_remote_hostname;
 
 var http = require("http");
 var https = require("https");
